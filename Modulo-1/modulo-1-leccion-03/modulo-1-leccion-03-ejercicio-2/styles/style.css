@@ -1,0 +1,29 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    background-color: #A0C5E9;
+  }
+
+.bloque {
+    display: block;
+    background-color: turquoise;
+}
+
+.en-linea {
+    display: inline;
+    background-color: green;
+}
+
+.bloque-enlinea {
+    display: inline-block;
+    background-color: orange;
+}
+
+.nada {
+    display: none;
+    background-color: orchid;
+}
+

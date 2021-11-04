@@ -1,0 +1,11 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://explora.mu/media/k2/items/cache/475699d297afae315ef802312426354e_XL.jpg);
+    background-size: 100px;
+}
+
+.box {
+    padding: 10px;
+    border: 5px;
+}
