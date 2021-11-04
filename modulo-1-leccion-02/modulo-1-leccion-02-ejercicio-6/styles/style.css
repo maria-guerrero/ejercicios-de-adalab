@@ -1,0 +1,31 @@
+  body {
+    margin: 10px 30px;
+  }
+  .col {
+    display: inline-block;
+    width: 140px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .box {
+    border: 1px solid deeppink;
+    width: 130px;
+    height: 130px;
+  }
+
+  .box--1 {
+    background-color: cyan;
+  }
+  .box--2 {
+    background-image: url(https://9ed48207422fa7fc5013-a6297eb5ec0f30e883355c8680f3b2d6.ssl.cf2.rackcdn.com/35585131450_6-20190322154216-20190322154226-1000x1000.jpg);
+    background-size: contain;
+  }
+  .box--3 {
+    background-color: cyan;
+    background-image: url(https://www.fillmurray.com/110/110);
+    background-repeat: no-repeat;
+    background-size: auto; 
+    background-position: center;
+  }
