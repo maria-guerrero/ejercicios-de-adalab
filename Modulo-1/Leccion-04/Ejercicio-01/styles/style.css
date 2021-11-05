@@ -1,0 +1,22 @@
+.container {
+    border: blue 2px solid;
+}
+
+.item {
+    box-sizing: border-box;
+    font-size: 20px;
+    border:blue 1px solid;
+    padding: 10px;
+    background-color: pink;
+}
+
+/* flex */
+
+.container {
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
