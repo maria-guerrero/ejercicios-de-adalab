@@ -1,11 +1,13 @@
-div {
+.box1 {
     width: 100px;
     height: 100px;
     background-image: url(https://explora.mu/media/k2/items/cache/475699d297afae315ef802312426354e_XL.jpg);
     background-size: 100px;
-}
-
-.box {
+    background-repeat: no-repeat;
+    border: 5px tomato solid;
     padding: 10px;
-    border: 5px;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    overflow: scroll;
+    
 }
