@@ -1,0 +1,19 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background: lightgray;
+    display: flex;
+    border: 2px black solid;
+    flex-flow: wrap;    
+}
+
+.numero{
+    box-sizing: border-box;
+    width: 90px;
+    height: 100px;
+    background: blueviolet;
+    color: white;
+    border: 1px yellow solid;
+    
+
+}
