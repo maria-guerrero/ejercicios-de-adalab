@@ -1,0 +1,8 @@
+.formularioFacebook {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ffffff 0%, #828bb0 100%);
+    color: black;
+    width: 500px;
+    padding: 20px;
+}

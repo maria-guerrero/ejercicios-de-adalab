@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios. Ejercicio 3</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <form class="formularioFacebook" action="https://adalab-server-form.herokuapp.com/" method="post">
+
+        <label for="firstName">First name</label>
+        <input placeholder="Enter your name" id="firstName" type="text" name="firstName">
+
+        <label for="lastName">Surname</label>
+        <input placeholder="Enter your last name" id="lastName" type="text" name="lastName">
+
+        <label for="emailOrMobile">Email or mobile number</label>
+        <input id="emailOrMobile" type="text" name="emailOrMobile">
+
+        <label for="confirmEmailMobile">Re-enter email or mobile number</label>
+        <input id="confirmEmailMobile" type="text" name="confirmEmailMobile">
+
+        <label for="password"> New password</label>
+        <input placeholder="********" id="password" type="password" name="password">
+
+        <select name="birthday" id="birthday">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <select name="birthday" id="birthday">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+        </select>
+
+        <select name="birthday" id="birthday">
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1995">1995</option>
+        </select>
+
+        <label for="genre">
+            <input id="genre" type="radio" name="genre" value="female">Female
+        </label>
+        <label for="genre">
+            <input id="genre" type="radio" name="genre" value="male">Male
+        </label>
+
+        <input type="hidden" id="navegador" name="navegador" value="Chrome" />
+
+        <label for="age">Edad:</label> 
+        <input type="number" id="height" min="50cm" max="250cm" name="age" value="150cm" />
+
+        <label for="comments">Comentarios:</label>
+        <textarea id="comments" name="comments" rows="8" cols="80"></textarea>
+
+        <div>
+            <label for="acceptTerms">
+              <input
+                id="acceptTerms"
+                type="checkbox"
+                value="assurance"
+                name="acceptTerms"
+              />
+              By clicking Create and account, you agree to our Terms and that you have read our Data Policy, including our Cookie User.
+            </label>
+          </div>
+
+        <input type="submit" value="Create an account" />
+
+    </form>
+</body>
+</html>

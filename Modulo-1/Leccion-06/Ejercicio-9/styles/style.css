@@ -1,0 +1,33 @@
+.header {
+    background-color: lightgray;
+}
+
+.header__title {
+    padding-bottom: 1em;
+}
+
+.menu {
+    background-color: greenyellow;
+}
+
+.content {
+    background-color: yellow;
+}
+
+.content__title {
+    padding-bottom: 1em;
+}
+
+.related {
+    background-color: gray;
+    margin: 1em 0;
+}
+
+@media (min-width: 480px) {
+    .page {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}

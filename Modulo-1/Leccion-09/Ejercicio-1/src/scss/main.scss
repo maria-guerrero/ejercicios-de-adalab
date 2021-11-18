@@ -1,0 +1,56 @@
+// @import 'core/variables';
+// @import 'core/reset';
+// @import 'components/code';
+// @import 'components/links';
+// @import 'layout/page';
+// @import 'layout/header';
+// @import 'layout/footer';
+// @import 'pages/index';
+
+$bodyTextColor: #010101;
+$bodyTextSize: 18px;
+$bodyTextFont: arial, sans-serif;
+$colorBackground: lightgrey;
+$sizeHeight: 50px;
+$mainBackground: cyan;
+$marginWrapper: 0 60;
+
+
+
+body {
+    color: $bodyTextColor; /* Pasar a variable */
+    display: flex;
+    font: $bodyTextSize $bodyTextFont;/* pasar a dos variables: texto y tamaño de texto */
+    flex-direction: column;
+    margin: $marginWrapper;
+    min-height: 100vh;
+  }
+  .wrapper {
+    margin: 0 40px;
+  }
+  .header {
+    background: $colorBackground; /* Pasar a variable */
+    height: $sizeHeight; /* Pasar a variable */
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  .main {
+    background: $mainBackground; /* Pasar a variable */
+    flex: 1;
+  }
+  .main__title {
+    color: #fff;
+    font-size: 2.5em;
+  }
+  .main__content p {
+    font-size: 1.1em;
+    line-height: 140%;
+  }
+  .footer {
+    background: $colorBackground; /* Pasar a variable */
+    height: $sizeHeight; /* Pasar a variable */
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  

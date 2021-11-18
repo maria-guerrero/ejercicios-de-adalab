@@ -1,0 +1,7 @@
+.formularioPosicion {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 30px;
+}
