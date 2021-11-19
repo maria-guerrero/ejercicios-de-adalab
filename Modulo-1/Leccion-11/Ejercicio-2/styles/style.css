@@ -1,0 +1,32 @@
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+    grid-template-rows: 20% 40% 20%;
+    
+}
+
+.item {
+    background-color: lightcyan;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgoldenrodyellow;
+}
+.header {
+    grid-column: span 12;
+    background-color: lightpink;
+}
+.menu {
+    grid-column: span 4;
+    background-color: blueviolet;
+}
+.content {
+    grid-column: span 8;
+    background-color: lightcoral;
+}
+.footer {
+    grid-column: span 12;
+    background-color: lightskyblue;
+}
